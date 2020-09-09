@@ -45,6 +45,8 @@ pip install ipython
 python3 manage.py startapp first
 
 
+# Gunicorn
+
 pip install gunicorn
 
 pip freeze > ..requirements.txt
@@ -76,6 +78,8 @@ exec gunicorn -c "/home/wiki/code/project1/project1/gunicorn_config.py" project1
 ```
 chmod +x bin/start_gunicorn.sh
 
+# Nginx
+
 sudo nano /etc/nginx/sites-enabled/default
 
 ```
@@ -102,6 +106,8 @@ server {
 
 sudo service nginx restart
 
+# Supervisor
+
 sudo nano /etc/supervisor/conf.d/project1.conf
 
 ```
@@ -116,6 +122,8 @@ redirect_stderr=true
 ```
 
 service supervisor start
+
+# Postgresql
 
 ```
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add - ; \
