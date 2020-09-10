@@ -95,7 +95,6 @@ server {
 	
 	 location /static/ {
 		root /home/wiki/project1/;
-		expires 30d;
 	    }
 	    
 	location / {
