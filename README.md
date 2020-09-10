@@ -92,7 +92,12 @@ server {
 	index index.html index.htm index.nginx-debian.html;
 
 	server_name _;
-
+	
+	 location /static/ {
+		root /home/wiki/project1/;
+		expires 30d;
+	    }
+	    
 	location / {
 		proxy_pass http://127.0.0.1:8001;
 		proxy_set_header X-Forwarded-Host $server_name;
