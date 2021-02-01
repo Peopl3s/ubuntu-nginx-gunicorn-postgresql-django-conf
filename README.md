@@ -71,7 +71,7 @@ cd ..
 
 mkdir bin/
 
-nano bin/start_unicorn.py
+nano bin/start_unicorn.sh
 
 ```
 #!/bin/bash
