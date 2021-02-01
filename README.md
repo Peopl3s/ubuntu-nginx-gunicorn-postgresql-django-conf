@@ -12,7 +12,7 @@ code/project1/project1/first, project1, gunicorn_config.py, manage.py, db.sqlite
 ```
 sudo apt-get update
 sudo apt-get upgrade 
-sudo apt-get install -y htop git curl wget zip gcc build-essential make
+sudo apt-get install -y htop git curl wget zip gcc build-essential make tree
 sudo apt-get install python3-venv
 sudo apt-get install python3-pip
 sudo apt-get install nginx
