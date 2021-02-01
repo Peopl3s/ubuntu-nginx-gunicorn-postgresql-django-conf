@@ -67,7 +67,7 @@ limit_request_field_size = 0
 raw_env = 'DJANGO_SETTINGS_MODULE=project1.settings'
 ```
 
-cd project1
+cd ..
 
 mkdir bin/
 
