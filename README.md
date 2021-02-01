@@ -47,6 +47,7 @@ python3 manage.py startapp first
 
 
 # Gunicorn
+В /home/www/code/project1/
 
 pip install gunicorn
 
